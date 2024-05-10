@@ -29,9 +29,41 @@ cd sn-gamestate
 pip install -e . -i https://pypi.org/simple  # note 使用pip默认源安装
 ```
 
+## Manual downloading of SoccerNet-gamestate
+If you want to download the dataset manually, you can run the following snippet
+after installing the soccernet package (`pip install SoccerNet`) : 
+
+```
+from SoccerNet.Downloader import SoccerNetDownloader
+mySoccerNetDownloader = SoccerNetDownloader(LocalDirectory="data/SoccerNetGS")
+mySoccerNetDownloader.downloadDataTask(task="gamestate-2024",
+                                       split=["train", "valid", "test", "challenge"])
+```
+
+After running this code, please unzip the folders, so that the data looks like : 
+```
+data/
+   SoccerNetGS/
+      train/
+      valid/
+      test/
+      challenge/
+```
+
+You can unzip them with the following command line : 
+```bash
+cd data/SoccerNetGS
+unzip gamestate-2024/train.zip -d train
+unzip gamestate-2024/valid.zip -d valid
+unzip gamestate-2024/test.zip -d test
+unzip gamestate-2024/challenge.zip -d challenge
+cd ../..
+```
+
 **External dependencies**
 
-- **DATA:** Get the **SoccerNet Tracking** dataset [here](https://github.com/SoccerNet/sn-tracking), rename the root folder as "SoccerNetMOT" and put it under the global dataset directory (specified under the `data_dir` config as explained below). Otherwise, you can modify the `dataset_path` config in [soccernet_mot.yaml](tracklab/configs/dataset/soccernet_mot.yaml) with your custom SoccerNet dataset directory.
+- **DATA:** You will need to set up some variables before running the code in soccernet.yaml(sn_gamestate/configs/soccernet.yaml)
+  - `data_dir`: the directory where you will store the different datasets (must be an absolute path !). If you opted for the automatic download option, `data_dir` should already point to the correct location.
 - **MODEL:** Download the pretrained model weights [here](https://drive.google.com/drive/folders/1MmDkSHWJ1S-V9YcLMkFOjm3zo65UELjJ?usp=drive_link) and put the "pretrained_models" directory under the main project directory (i.e. "/path/to/tracklab/pretrained_models").
 
 ## Setup
