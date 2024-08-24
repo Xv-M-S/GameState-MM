@@ -1,5 +1,18 @@
 # GameState-MM
- The code of XJTU_MM for SoccerNet2024 GameState
+ The code of XJTU_MM for [SoccerNet2024 GameState](https://github.com/SoccerNet/sn-gamestate)
+# Our Method
+The method is shown in the report of 
+# Rank Results
+The [leaderboard](https://eval.ai/web/challenges/challenge-page/2251/leaderboard/5565) of SoccerNet2024 GameState
+| Rank | Participant team | GS-HOTA (↑) | GS-DetA (↑) | GS-AssA (↑) | Last submission at |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Constructor tech | 55.82 | 41.67 | 74.86 | 2 months ago |
+| 2 | UPCxMobius | 42.19 | 30.83 | 57.78 | 2 months ago |
+| 3 | XJTU_MM (JNR) | 31.17 | 19.95 | 48.74 | 2 months ago |
+| 4 | VIPLab | 29.59 | 17.82 | 49.18 | 2 months ago |
+| 5 | playbox x NUSG | 23.27 | 9.59 | 56.45 | 2 months ago |
+| 6 | Eidos | 22.32 | 10.53 | 47.37 | 3 months ago |
+| 7 | Host_17134_Team (GSR-Baseline) | 22.26 | 10.67 | 46.46 | 5 months ago |
 # Installation guide
 ## Clone the repository
 ```txt
