@@ -1,7 +1,8 @@
 # GameState-MM
  The code of XJTU_MM for [SoccerNet2024 GameState](https://github.com/SoccerNet/sn-gamestate)
 # Our Method
-The method is shown in the report of 
+The method is shown in the report of `Optimizing Jersey Number Recognition for Effective Player Tracking in the Game
+State Reconstruction`
 # Rank Results
 The [leaderboard](https://eval.ai/web/challenges/challenge-page/2251/leaderboard/5565) of SoccerNet2024 GameState
 | Rank | Participant team | GS-HOTA (↑) | GS-DetA (↑) | GS-AssA (↑) | Last submission at |
