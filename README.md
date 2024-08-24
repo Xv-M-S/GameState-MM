@@ -65,7 +65,7 @@ cd ../..
 - **DATA:** You will need to set up some variables before running the code in soccernet.yaml(sn_gamestate/configs/soccernet.yaml)
   - `data_dir`: the directory where you will store the different datasets (must be an absolute path !). If you opted for the automatic download option, `data_dir` should already point to the correct location.
 - **MODEL:** Download the pretrained model weights [here](https://drive.google.com/drive/folders/1MmDkSHWJ1S-V9YcLMkFOjm3zo65UELjJ?usp=drive_link) and put the "pretrained_models" directory under the main project directory (i.e. "/path/to/tracklab/pretrained_models/reid").
-- **YoloModel** Dowlaod the pretrained YOLOv8 model weights [here](https://drive.google.com/drive/folders/1tsr27sBYAwHJjTk0ynpTVE7uNr73FuA8) and put the "yolov8x6.pt" file under the main project directory (i.e. "/path/to/tracklab/pretrained_models/yolo").
+- **YoloModel:** Dowlaod the pretrained YOLOv8 model weights [here](https://drive.google.com/drive/folders/1tsr27sBYAwHJjTk0ynpTVE7uNr73FuA8) and put the "yolov8x6.pt" file under the main project directory (i.e. "/path/to/tracklab/pretrained_models/yolo").
 
 ## Setup
 
