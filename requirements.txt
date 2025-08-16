@@ -1,0 +1,187 @@
+absl-py==2.1.0
+addict==2.4.0
+aiohttp==3.9.5
+aiosignal==1.3.1
+alabaster==0.7.16
+albumentations==1.4.6
+annotated-types==0.6.0
+antlr4-python3-runtime==4.9.3
+async-timeout==4.0.3
+attrs==23.2.0
+Babel==2.15.0
+beautifulsoup4==4.12.3
+Brotli @ file:///croot/brotli-split_1714483155106/work
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+chumpy==0.66
+click==8.1.7
+colorama==0.4.6
+contourpy==1.2.1
+cycler==0.12.1
+Cython==3.0.10
+deepdiff==7.0.1
+docker-pycreds==0.4.0
+docutils==0.20.1
+easyocr==1.7.1
+exceptiongroup==1.2.1
+filelock==3.14.0
+filterpy==1.4.5
+flake8==7.0.0
+fonttools==4.51.0
+frozenlist==1.4.1
+fsspec==2024.3.1
+future==1.0.0
+gdown==4.7.3
+gitdb==4.0.11
+GitPython==3.1.43
+google-measurement-protocol==1.1.0
+grpcio==1.63.0
+h5py==3.11.0
+huggingface-hub==0.23.0
+hydra-core==1.3.2
+idna @ file:///croot/idna_1714398848350/work
+imageio==2.34.1
+imagesize==1.4.1
+imgaug==0.4.0
+importlib_metadata==7.1.0
+iniconfig==2.0.0
+isort==5.13.2
+Jinja2==3.1.4
+joblib==1.4.2
+json-tricks==3.17.3
+kiwisolver==1.4.5
+kornia==0.6.3
+lap @ git+https://github.com/TrackingLaboratory/lap@b02b664623fdfef5fd822b8ee0d1b2491ab945ed
+lazy_loader==0.4
+lightning==2.2.4
+lightning-utilities==0.11.2
+llvmlite==0.42.0
+lmdb==1.4.1
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib==3.8.4
+mccabe==0.7.0
+mdit-py-plugins==0.4.0
+mdurl==0.1.2
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+mmcv==2.0.1
+mmdet==3.1.0
+mmengine==0.10.4
+mmocr==1.0.1
+mmpose==1.3.1
+model-index==0.1.11
+monai==1.3.0
+motmetrics==1.4.0
+multidict==6.0.5
+munkres==1.1.4
+mutagen==1.47.0
+myst-parser==2.0.0
+networkx==3.3
+ninja==1.11.1.1
+numba==0.59.1
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256=d8cd837ed43e87f77e6efaa08e8de927ca030a1c9c5d04624432d6fb9a74a5ee
+omegaconf==2.3.0
+opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+opendatalab==0.0.10
+openmim==0.3.9
+openpifpaf==0.13.11
+openxlab==0.0.11
+ordered-set==4.1.0
+packaging==24.0
+pandas==2.2.2
+pillow @ file:///croot/pillow_1714398848491/work
+platformdirs==4.2.1
+pluggy==1.5.0
+posetrack21 @ file:///data01/migu/sxm/HomeWorkSpace/GameState-MM/tracklab-main/plugins/eval/PoseTrack21/posetrack21
+posetrack21_mot @ file:///data01/migu/sxm/HomeWorkSpace/GameState-MM/tracklab-main/plugins/eval/PoseTrack21/posetrack21_mot
+poseval @ git+https://github.com/TrackingLaboratory/poseval@0df5b1d1653e9f4dfb64f3a8a5f36375792e5d21
+prices==1.1.1
+protobuf==4.25.3
+prtreid @ git+https://github.com/VlSomers/prtreid@eef6ee60dab1c80c59c0c46caabd41ffc36d8560
+psutil==5.9.8
+py-cpuinfo==9.0.0
+pyclipper==1.3.0.post5
+pycocoevalcap==1.2
+pycocotools==2.0.7
+pycodestyle==2.11.1
+pycryptodome==3.20.0
+pycryptodomex==3.20.0
+pydantic==2.7.1
+pydantic_core==2.18.2
+pyflakes==3.2.0
+Pygments==2.18.0
+pyparsing==3.1.2
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+pysparkling==0.6.2
+pytest==8.2.0
+python-bidi==0.4.2
+python-dateutil==2.9.0.post0
+python-json-logger==2.0.7
+pytorch-lightning==2.2.4
+pytz==2024.1
+PyYAML==6.0.1
+rapidfuzz==3.9.0
+requests @ file:///croot/requests_1707355572290/work
+rich==13.7.1
+safetensors==0.4.3
+scikit-image==0.23.2
+scikit-learn==1.4.2
+scikit-video==1.1.11
+scipy==1.13.0
+seaborn==0.13.2
+sentry-sdk==2.1.1
+setproctitle==1.3.3
+shapely==2.0.4
+six==1.16.0
+smmap==5.0.1
+-e git+https://github.com/Xv-M-S/GameState-MM.git@dd99c8783f9c5fe45bb627ec9559c523aa33816e#egg=sn_gamestate&subdirectory=sn-gamestate-main
+snowballstemmer==2.2.0
+SoccerNet==0.1.58
+soupsieve==2.5
+sparse==0.15.1
+Sphinx==7.3.7
+sphinx-rtd-theme==2.0.0
+sphinxcontrib-applehelp==1.0.8
+sphinxcontrib-devhelp==1.0.6
+sphinxcontrib-htmlhelp==2.0.5
+sphinxcontrib-jquery==4.1
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.7
+sphinxcontrib-serializinghtml==1.1.10
+tabulate==0.9.0
+tb-nightly==2.17.0a20240509
+tensorboard-data-server==0.7.2
+termcolor==2.4.0
+terminaltables==3.1.10
+thop==0.1.1.post2209072238
+threadpoolctl==3.5.0
+tifffile==2024.5.10
+timm==0.9.16
+tomli==2.0.1
+torch==1.13.1
+torchmetrics==0.10.3
+torchreid @ git+https://github.com/VlSomers/bpbreid@106ef5452e0737e0ec00b600c3b9e6127ce16eb6
+torchvision==0.14.1
+tqdm==4.66.4
+-e git+https://github.com/Xv-M-S/GameState-MM.git@dd99c8783f9c5fe45bb627ec9559c523aa33816e#egg=track_bench_track&subdirectory=tracklab-main/plugins/track
+trackeval @ git+https://github.com/SoccerNet/sn-trackeval.git@c0d3748e8b6395687d804b982dabf5d153247734
+-e git+https://github.com/Xv-M-S/GameState-MM.git@dd99c8783f9c5fe45bb627ec9559c523aa33816e#egg=tracklab&subdirectory=tracklab-main
+-e git+https://github.com/Xv-M-S/GameState-MM.git@dd99c8783f9c5fe45bb627ec9559c523aa33816e#egg=tracklab_calibration&subdirectory=sn-gamestate-main/plugins/calibration
+typing_extensions @ file:///croot/typing_extensions_1715268824938/work
+tzdata==2024.1
+ultralytics==8.0.61
+urllib3 @ file:///croot/urllib3_1707770551213/work
+wandb==0.17.0
+websockets==12.0
+Werkzeug==3.0.3
+xmltodict==0.13.0
+xtcocotools==1.14.3
+yacs==0.1.8
+yapf==0.40.2
+yarl==1.9.4
+yt-dlp==2024.4.9
+zipp==3.18.1
